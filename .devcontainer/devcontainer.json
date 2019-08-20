@@ -1,0 +1,12 @@
+{
+    "name": "Scala Sample",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "scala-lang.scala",
+        "scalameta.metals"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "runArgs": ["-u" , "sbtuser", "-w", "/home/sbtuser"]
+}
